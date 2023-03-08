@@ -9,5 +9,6 @@ public class MavenPracgtice {
 		String b = System.getProperty("browser");
 		System.out.println(u);
 		System.out.println(b);
+		//
 	}
 }

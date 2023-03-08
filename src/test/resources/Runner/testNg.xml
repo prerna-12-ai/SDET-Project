@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG">
+  <test name="Test TestNG">
+    <classes>
+      <class name="crm.vtiger.practice.TestNGPracticeClass"/>
+      <class name="crm.vtiger.practice.TestNGPracticeClass2"/> 
+    </classes>
+  </test> 
+  <test name="Test TestNG1">
+    <classes>
+      <class name="crm.vtiger.practice.TestNGPracticeClass"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
+

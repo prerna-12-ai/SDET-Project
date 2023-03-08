@@ -1,0 +1,5 @@
+crm\vtiger\objectRepository\OrganizationsPage.class
+com\tyss\genericUtiltiy\WebAction\PopupUtility.class
+crm\vtiger\objectRepository\CreateNewContactPage.class
+com\tyss\genericUtiltiy\WebAction\WaitUtiliy.class
+com\tyss\genericUtiltiy\constants\FrameworkConstans.class

@@ -1,18 +1,16 @@
 package crm.vtiger.practice;
 
+import java.util.Map;
+
+import org.apache.commons.collections4.map.HashedMap;
+
 public class Xyz {
-	String a="abc";
 	
 	public static void main(String[] args) {
-//		System.out.println(a);
-		Xyz x=new Xyz();
-		System.out.println(x.aa());
-		System.out.println(Xyz.class);
+		Map<String, String> m=new HashedMap<>();
+		m.put("a", "1");
+		System.out.println(m.get("ab"));
 	}
 	
 	
-public String aa() {
-	System.out.println(this);
-	return this.a;
-}
 }

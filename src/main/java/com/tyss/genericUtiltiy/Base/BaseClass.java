@@ -31,9 +31,10 @@ import com.tyss.genericUtiltiy.externalFileUtility.PropertyUtiltiy;
 import crm.vtiger.objectRepository.CommonPage;
 import crm.vtiger.objectRepository.LoginPage;
 /**
- * 
+ * djosajdojlskdjlksdjljsfdljklksjljj
+ *Workspace1
  * @author MOHAN GOWDA
- *
+ *This class used for configure all TestNG Config Annotations
  */
 @Listeners(ExtentReportListener.class)
 public class BaseClass extends BaseClassDeclaration{

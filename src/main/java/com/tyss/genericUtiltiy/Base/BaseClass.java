@@ -33,7 +33,7 @@ import crm.vtiger.objectRepository.LoginPage;
 /**
  * 
  * @author MOHAN GOWDA
- *
+ *This class used for configure all TestNG Config Annotations
  */
 @Listeners(ExtentReportListener.class)
 public class BaseClass extends BaseClassDeclaration{

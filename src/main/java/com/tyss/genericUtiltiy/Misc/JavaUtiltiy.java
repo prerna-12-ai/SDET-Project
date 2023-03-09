@@ -1,5 +1,7 @@
 package com.tyss.genericUtiltiy.Misc;
 
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
@@ -126,5 +128,9 @@ public class JavaUtiltiy {
 		return	sdf.format(cal.getTime());
 	}
 
+	
+	public String encoderString(String stringData) {
+	return	URLEncoder.encode(stringData, StandardCharsets.UTF_8);
+	}
 
 }

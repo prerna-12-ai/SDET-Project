@@ -31,7 +31,7 @@ import com.tyss.genericUtiltiy.externalFileUtility.PropertyUtiltiy;
 import crm.vtiger.objectRepository.CommonPage;
 import crm.vtiger.objectRepository.LoginPage;
 /**
- * This is TestNg class
+ *Workspace1
  * @author MOHAN GOWDA
  *This class used for configure all TestNG Config Annotations
  */

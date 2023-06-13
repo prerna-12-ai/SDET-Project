@@ -18,7 +18,7 @@ import crm.vtiger.objectRepository.TabNames;
 public class CreateContactTest extends BaseClass{
 
 	@Report(author = "mohan", category = "sanity")
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void createContactTest() {
 		//test data
 		String sheetName=ExcelSheet.CONTACTS.getSheetName();
